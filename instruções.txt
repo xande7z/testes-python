@@ -7,3 +7,5 @@ e o pacote 'unittest'
 
 3) Executar o arquivo de testes unitários
 - comando no Terminal: python test-calculadora.py
+
+4) Criar o arquivo a ser testado chamado 'calculadoraIMC.py'
