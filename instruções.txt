@@ -9,3 +9,13 @@ e o pacote 'unittest'
 - comando no Terminal: python test-calculadora.py
 
 4) Criar o arquivo a ser testado chamado 'calculadoraIMC.py'
+
+    def testImc_normal(self):
+        self.assertEqual(self.calc.calcular_IMC(60, 1.60), 'normal')
+        
+    def testImc_sobrepeso(self):
+        self.assertEqual(self.calc.calcular_IMC(100, 1.60), 'sobrepeso')
+        
+    def testImc_obesidade(self):
+        self.assertEqual(self.calc.calcular_IMC(180, 1.60), 'obesidade')
+        
