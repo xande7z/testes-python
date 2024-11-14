@@ -13,10 +13,10 @@ class testCalculadoraIMC(unittest.TestCase):
         self.assertEqual(self.calc.calcular_IMC(60, 1.60), 'normal')
         
     def testImc_sobrepeso(self):
-        self.assertEqual(self.calc.calcular_IMC(80, 1.60), 'sobrepeso')
+        self.assertEqual(self.calc.calcular_IMC(70, 1.60), 'sobrepeso')
         
     def testImc_obesidade(self):
-        self.assertEqual(self.calc.calcular_IMC(180, 1.60), 'obesidade')
+        self.assertEqual(self.calc.calcular_IMC(200, 1.60), 'obesidade')
         
         
         
